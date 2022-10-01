@@ -1,14 +1,11 @@
 import pkg from "discord.js";
 import clipboardy from "clipboardy";
-import { setTimeout } from "node:timers/promises";
 import heroesData from "./config/heroes.js";
 import config from "./config/config.js";
 import { showBuilds, showMenu } from "./embedBuild.js";
 import { getImageScreenshot } from "./captureScreenshot.js";
 import storeBuildsInfo from "./scrapHeroBuilds.js";
 import fs from "fs";
-import { inflateRaw } from "node:zlib";
-import { channel } from "node:diagnostics_channel";
 
 const {
     Client,
