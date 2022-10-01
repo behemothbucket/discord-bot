@@ -1,0 +1,33 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clipboardy": "^3.0.0",
+    "copy-to-clipboard": "^3.3.2",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "capture-website": "^3.1.0",
+    "colorthief": "^2.3.2",
+    "discord.js": "^14.5.0",
+    "htmlparser2": "^8.0.1",
+    "jsdom": "^20.0.0",
+    "puppeteer": "^18.0.5",
+    "scraperjs": "^1.2.0"
+  }
+}
