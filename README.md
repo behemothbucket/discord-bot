@@ -1,6 +1,6 @@
 # discord-bot
 
-Search builds for HOTS
+Build searcher
 
 ## Installation
 
